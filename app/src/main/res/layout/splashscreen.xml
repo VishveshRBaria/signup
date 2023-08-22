@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    tools:context=".Splashscreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/gifImageView"
+            android:layout_height="wrap_content"
+            android:contentDescription="splashscreen" />
+        <!-- Add your splash screen content here, e.g., logo or image -->
+
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

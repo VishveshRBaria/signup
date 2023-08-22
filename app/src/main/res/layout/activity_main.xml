@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#86DAE4"
+    android:padding="30dp"
+    android:gravity="top"
+    tools:context=".button">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pass Data"
+            android:textSize="30dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dialog Box"
+            android:textSize="30dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recycler View"
+            android:textSize="30dp"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragments"
+            android:textSize="30dp"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
